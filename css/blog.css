@@ -155,16 +155,16 @@ h1 {
 
 .project-box-1:hover {
   transform: scale(1.02);
-  border: 2px solid rgba(55, 0, 255, 0.671);
+  border: 2px solid rgba(255, 0, 0, 0.671);
   background-color: rgba(0, 0, 0, 0.473);
-  box-shadow: 0 0 100px 5px rgba(25, 0, 255, 0.637);
+  box-shadow: 0 0 100px 5px rgba(255, 0, 0, 0.637);
 }
 
 .project-box-2:hover {
   transform: scale(1.02);
-  border: 2px solid rgba(132, 0, 255, 0.671);
+  border: 2px solid rgba(17, 0, 255, 0.671);
   background-color: rgba(0, 0, 0, 0.473);
-  box-shadow: 0 0 100px 5px rgba(140, 0, 255, 0.637);
+  box-shadow: 0 0 100px 5px rgba(17, 0, 255, 0.637);
 }
 
 .project-box-3:hover {
@@ -172,4 +172,9 @@ h1 {
   border: 2px solid rgba(255, 255, 255, 0.671);
   background-color: rgba(0, 0, 0, 0.473);
   box-shadow: 0 0 100px 2.5px rgba(255, 255, 255, 0.459);
+}
+
+.bold {
+  font-weight: 400;
+  color: white;
 }
