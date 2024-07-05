@@ -53,7 +53,7 @@ function actionTwo() {
 }
 
 var typed = new Typed('#element', {
-    strings: ['God can be understood as the divine knowledge of oneself, attainable through the practice of meditation.', 'Its hard for this generation to accept the truth with enough proof but easy to accept a belief with none.', 'A persons mentality is not good if a girl wears small clothes for attention and they give it to her.'],
+    strings: ['The True God can be understood as the divine knowledge of oneself, attainable through the practice of meditation.', 'Its hard for this generation to accept the truth with enough proof but easy to accept a belief with none.', 'A persons mentality is not good if a girl wears small clothes for attention and they give it to her.'],
     typeSpeed: 50,
     loop: true,
     showCursor: false,
