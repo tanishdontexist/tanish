@@ -194,6 +194,11 @@ h11 {
 }
 
 @media (max-width:991px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
   #contact {
     margin-left: 10%;
     margin-right: 10%;
