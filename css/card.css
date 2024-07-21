@@ -122,10 +122,11 @@ h2 {
 
 .container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
 }
 
 .card {
+  margin-right: 10px;
   margin-top: 10px;
   border-radius: 15px;
   border: 2px var(--third-color) solid;
@@ -222,17 +223,17 @@ h11 {
   font-size: 14px;
   font-weight: 200;
   transition: 0.3s;
-  color: var(--fourth-color);
+  color: var(--third-color);
 }
 
 .copyright:hover {
-  color: var(--third-color);
+  color: var(--fourth-color);
   text-decoration: underline;
 }
 
 .footerhr {
   transition: 0.5s;
-  color: var(--fourth-color);
+  color: var(--third-color);
   width: 80%;
 }
 
@@ -241,4 +242,12 @@ h11 {
   color: var(--third-color);
   text-transform: uppercase;
   text-align: center;
+}
+
+.more {
+  color: var(--third-color);
+  transition: all 0.3s ease-in-out;
+}
+.more:hover {
+  color: var(--fourth-color);
 }
