@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Red Pill</title>
+    <meta name="theme-color" content="#ff0000" />
+    <meta name="description" content="The Truth for Truth Seekers." />
+    <meta property="og:title" content="The Red Pill" />
+    <meta property="og:description" content="The Truth for Truth Seekers." />
+    <link rel="icon" type="image/png" href="/media/Yin Yang.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a6e1a5130.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/theredpill.css">
+</head>
+
+<body>
+    <section>
+    <h1 id="TextBlue"><span id="CheckColor">The</span><span class="red" id="red">Red</span>Pill<span
+            class="question-mark" id="question-mark">?</span></h1>
+    <div class="center">
+        <button class="buttonblue" onmouseover="changeColor()" onmouseout="resetColor()" id="BlueButton">Go
+            Back</button>
+        <button class="buttonred" onmouseover="changeSymbol()" onmouseout="resetSymbol()" id="RedButton">Take
+            It</button>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1 class="warning fade-blur"><span>Warning</span><span>
+                    <e class="blinking-symbol">!</e>
+            </h1>
+            <p class="fade-blur"><span>Please be strongly advised:</span></p>
+            <p class="fade-blur"><span>
+                    By exploring the content here, you are embarking on a journey that may profoundly alter your
+                    perceptions and
+                    thinking. The knowledge and insights you gain could be incredibly beneficial, providing clarity and
+                    wisdom.
+                    However, this transformative experience may also challenge your existing beliefs and shatter
+                    long-held
+                    assumptions.</span></p>
+            <p class="fade-blur"><span>
+                    Proceed only if you are fully prepared for the potential impacts on your worldview and mental
+                    landscape.
+                </span></p>
+            <p class="fade-blur"><span>
+                    The materials and information contained within this website are not for the faint-hearted. They
+                    demand a
+                    willingness to embrace discomfort, confront deeply ingrained ideas, and undergo a process of
+                    intellectual and
+                    emotional upheaval. You may find yourself questioning everything you thought you knew, feeling
+                    disoriented, or
+                    even experiencing a sense of loss as old paradigms crumble.
+                </span></p>
+            <p class="fade-blur"><span>
+                    Knowledge is powerful and can lead to profound personal growth, but it can also be unsettling and
+                    disconcerting.
+                    This is not just a casual exploration; it is a deep dive into the realms of understanding that may
+                    leave you
+                    fundamentally changed. Be prepared for an experience that can be both enlightening and disquieting.
+                </span></p>
+            <p class="fade-blur"><span>
+                    Are you truly ready to face the truth?
+                </span></p>
+            <p class="fade-blur"><span>
+                    If you choose to proceed, brace yourself for a journey that goes beyond mere information. It is a
+                    transformative
+                    experience that could redefine your entire perspective on life and the world around you.</span></p>
+            <div class="fade-blur center">
+                <span><a href="https://tanishmehta.in/cards" class="warningbutton">I'm Ready</a></span>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div id="custom-context-menu" class="context-menu">
+        <ul>
+            <li onclick="actionOne()">Refresh</li>
+            <li onclick="actionClose()">Close</li>
+            <li onclick="actionTwo()">Change Theme</li>
+        </ul>
+    </div>
+    <script src="js/theredpill.js"></script>
+</body>
+
+</html>
