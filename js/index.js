@@ -103,6 +103,7 @@ var typed = new Typed(".typing", {
     "a Gamer.",
     "a Student.",
     "an Atheist.",
+    "an Ethical Hacker.",
   ],
   typeSpeed: 100,
   backSpeed: 100,
