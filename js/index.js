@@ -96,12 +96,13 @@ firstScrollSpyEl.addEventListener("activate.bs.scrollspy", () => {
 });
 var typed = new Typed(".typing", {
   strings: [
-    "Coder.",
-    "Programmer.",
-    "Developer.",
-    "Designer.",
-    "Gamer.",
-    "Student.",
+    "a Coder.",
+    "a Programmer.",
+    "a Developer.",
+    "a Designer.",
+    "a Gamer.",
+    "a Student.",
+    "an Atheist.",
   ],
   typeSpeed: 100,
   backSpeed: 100,
