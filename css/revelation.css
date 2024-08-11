@@ -62,7 +62,6 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 15px;
     font-weight: 600;
-    margin-top: 5rem;
 }
 
 h2 {
@@ -89,8 +88,27 @@ h4 {
     font-weight: 600;
 }
 
+@media (max-width:991px) {
+    h1 {
+        letter-spacing: 5px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+}
+
 .space {
-    height: 150px;
+    height: 250px;
 }
 
 .more-space {
