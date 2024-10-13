@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css"> <!-- Link to your CSS file -->
+  <title>Create New Note</title>
+</head>
+<body>
+  <h1>Create a New Note</h1>
+  
+  <form action="/new" method="POST"> <!-- Updated action to /new -->
+    <div>
+        <label for="note_title">Title:</label>
+        <input type="text" id="note_title" name="note_title" required>
+    </div>
+    <div>
+        <label for="note_content">Content:</label>
+        <textarea id="note_content" name="note_content" required></textarea>
+    </div>
+    <button type="submit">Create Note</button>
+  </form>
+
+  <a href="/">Back to Notes</a> <!-- Link to go back to notes list -->
+</body>
+</html>

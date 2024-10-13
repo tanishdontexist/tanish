@@ -1,0 +1,44 @@
+:root {
+    --background: #000000;
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    margin-top: 50px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.notes-container {
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    margin-right: 40px;
+}
+
+.space {
+    margin-bottom: 100px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.new-button {
+    padding: 15px 25px;
+    background-color: white;
+    color: black;
+}

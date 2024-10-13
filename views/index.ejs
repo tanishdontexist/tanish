@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1>Your Notes</h1>
+    <div class="notes-container">
+        <% notes.forEach(note => { %>
+            <div class="container">
+                <h2>Title: <%= note.note_title %></h2>
+                <p><%= note.note_content %></p>
+                <div class="note-actions">
+                    <form action="/edit/<%= note.id %>" method="GET">
+                        <button type="submit">Edit</button>
+                    </form>
+                    <form action="/delete/<%= note.id %>" method="POST">
+                        <button type="submit">Delete</button>
+                    </form>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+    <div class="space"></div>
+    <div class="align-center">
+        <a class="new-button" href="/app/notes/new">Create New Note</a>
+        <form action="/app/notes/edit/<%= note.id %>" method="GET">
+            <button type="submit">Edit</button>
+        </form>
+        <form action="/app/notes/delete/<%= note.id %>" method="POST">
+            <button type="submit">Delete</button>
+        </form>
+        </div>
+</body>
+</html>
