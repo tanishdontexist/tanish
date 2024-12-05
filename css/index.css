@@ -22,7 +22,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -31,7 +31,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
+  border-radius: 15px;
   background: #5c5cff;
 }
 
@@ -463,6 +463,33 @@ body {
   color: white;
   cursor: not-allowed;
 }
+.main-button-3 {
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  border: 1px solid rgba(256, 256, 256, 0.2);
+  padding: 0.50rem 1.00rem;
+  color: rgba(256, 256, 256, 0.8);
+  transition: linear 0.3s;
+  font-size: 13px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:991px) {
+  .main-button-3 {
+    font-size: 17px;
+  }
+}
+
+.main-button-3:hover {
+  box-shadow: 5px 5px 150px rgb(38, 0, 255);
+  background-color: rgb(47, 0, 255);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: not-allowed;
+}
 
 .form-control:focus {
   letter-spacing: 1px;
@@ -558,49 +585,30 @@ body {
   box-shadow: 1px 1px 200px rgba(165, 165, 165, 0.5);
 }
 
-.velocity-box {
+.nms-box {
+  text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
 
-.velocity-box:hover {
+.nms-box:hover {
   transform: scale(1.05);
   background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(200, 0, 255, 0.5);
-  box-shadow: 1px 1px 200px rgba(200, 0, 255, 0.5);
+  border: 2px solid rgba(0, 0, 255, 0.5);
+  box-shadow: 1px 1px 200px rgba(0, 0, 255, 0.5);
 }
 
-.acronoid-box {
+.spark-box {
+  text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
 
-.acronoid-box:hover {
+.spark-box:hover {
   transform: scale(1.05);
   background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(255, 0, 0, 0.5);
-  box-shadow: 1px 1px 200px rgba(255, 0, 0, 0.5);
+  border: 2px solid rgba(166, 0, 255, 0.5);
+  box-shadow: 1px 1px 200px rgba(162, 0, 255, 0.5);
 }
 
-.cupcake-box {
-  transition: all 0.2s ease-in-out;
-}
-
-.cupcake-box:hover {
-  transform: scale(1.05);
-  background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(255, 0, 225, 0.5);
-  box-shadow: 1px 1px 200px rgba(255, 0, 225, 0.5);
-}
-
-.giveaway-box {
-  transition: all 0.2s ease-in-out;
-}
-
-.giveaway-box:hover {
-  transform: scale(1.05);
-  background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(128, 0, 255, 0.5);
-  box-shadow: 1px 1px 200px rgba(128, 0, 255, 0.5);
-}
 .project-details {
   font-size: 15px;
   font-family: "Josefin Sans", sans-serif;
@@ -608,4 +616,12 @@ body {
   font-weight: 400;
   margin-left: 10px;
   letter-spacing: 2px;
+}
+.biospace {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.bioforlife {
+  text-align: center;
+  color: white;
 }
