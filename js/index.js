@@ -110,3 +110,18 @@ var typed = new Typed(".typing", {
   autoInsertCss: true,
   loop: true,
 });
+
+function updateHeading() {
+  const heading = document.getElementById('responsive-heading');
+  if (window.innerWidth <= 1382) {
+      heading.textContent = 'NMS';
+  } else {
+      heading.textContent = 'Notes Management System';
+  }
+}
+
+// Call the function on page load
+updateHeading();
+
+// Update the heading on window resize
+window.addEventListener('resize', updateHeading);
