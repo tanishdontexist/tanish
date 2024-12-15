@@ -1,0 +1,150 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background: linear-gradient(315deg, rgb(13, 8, 40) 3%, rgb(2, 2, 35) 38%, rgb(7, 3, 35) 68%, rgb(5, 1, 32) 98%);
+    animation: gradient 15s ease infinite;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.3);
+    background: rgb(43, 43, 43);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: #5c5cff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+.copyright {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.copyright:hover {
+    color: rgba(255, 255, 255);
+}
+
+.footerhr {
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.6);
+    width: 80%;
+}
+
+.footerhr:hover {
+    width: 100%;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.ussea {
+    box-shadow: 0 -5px 15px rgba(255, 255, 255, 0.322);
+    border-radius: 50px;
+    margin-top: 10%;
+    width: 150px;
+}
+
+@media (max-width:991px) {
+    .ussea {
+        margin-top: 35%;
+    }
+}
+
+h1 {
+    margin-top: 5px;
+    font-weight: 200;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.paragraph {
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 200;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+.bold {
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 900;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.chat-pc {
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 -5px 15px rgba(255, 255, 255, 0.322);
+    width: 100%;
+}
+
+.pc {
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 -5px 15px rgba(255, 255, 255, 0.116);
+    width: 100%;
+}
+
+@media (min-width:991px) {
+    .container-pc {
+        display: flex;
+        gap: 10px;
+    }
+
+    .pc {
+        width: 50%;
+    }
+}
+
+.mobile {
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 -5px 15px rgba(255, 255, 255, 0.116);
+    width: 100%;
+}
+
+@media (min-width:991px) {
+    .container-mobile {
+        display: flex;
+        gap: 10px;
+    }
+
+    .mobile {
+        width: 33%;
+    }
+}

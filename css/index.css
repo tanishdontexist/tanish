@@ -597,18 +597,6 @@ body {
   box-shadow: 1px 1px 200px rgba(0, 0, 255, 0.5);
 }
 
-.spark-box {
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
-.spark-box:hover {
-  transform: scale(1.05);
-  background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(166, 0, 255, 0.5);
-  box-shadow: 1px 1px 200px rgba(162, 0, 255, 0.5);
-}
-
 .ussea-box {
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -617,8 +605,8 @@ body {
 .ussea-box:hover {
   transform: scale(1.05);
   background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(0, 195, 255, 0.5);
-  box-shadow: 1px 1px 200px rgba(0, 225, 255, 0.5);
+  border: 2px solid rgba(166, 0, 255, 0.5);
+  box-shadow: 1px 1px 200px rgba(162, 0, 255, 0.5);
 }
 
 .project-details {
